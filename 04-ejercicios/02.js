@@ -7,7 +7,11 @@
  * HD 1280 x 720
  */
 function nombreResolucion(ancho, alto){
+    if (ancho >= 7680 && alto >= 4320){
+       return "8K"; 
+    }
+    
 }
 
-let nombre = nombreResolucion(1366, 768);
+let nombre = nombreResolucion(7880, 4500);
 console.log(nombre);
